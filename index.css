@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+/***************************************************************  Navbar *************************************/
+header .navbar{
+    background-color: #008374;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar .navbar-brand{
+    color: white;
+    font-size: 50px;
+}
+/***************************************************************  section1 *************************************/
+.section1{
+    background-color: #00796b;
+    height: 600px;
+    color: white;
+}
+.section1 .gauche p{
+    color: rgb(194, 196, 198);
+}
+.gauche .rang .bou{
+    background-color: #079383;
+    width: 180px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid rgb(161, 159, 159);
+    color: white;
+}
+.gauche .rang .fa-regular{
+    font-size: 35px;
+}
+.rang .sau .rou{
+    color: white;
+    font-size: 20px;
+}
+
+/***************************************************************  section2 *************************************/
+.section2 .vert{
+    background-color: #079383;
+    height: 270px;
+    border-radius: 12px;
+    position: relative;
+    top: -150px;
+
+}
+.section2{
+    color: white;
+}
+
+/***************************************************************  section3 *************************************/
+.section3 .haut .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.section3 .deur{
+    border-radius: 10px;
+}
+
+/***************************************************************  section4 *************************************/
+.section4 .suive .vir{
+    width: 70px;
+}
+
+/***************************************************************  section5 *************************************/
+.section5 .glo .dessous{
+    color: #00796b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/***************************************************************  section6 *************************************/
+.section6 .back {
+    background-image: url(./img/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.section6 .back .trans .wou{
+    color: white;
+    border: 1px white solid;
+    border-radius: 30px;
+}
+.section6 .back .trans{
+    color: white;
+    background-color: #0000009c;
+}
+.trans .bi{
+    font-size: 60px;
+    border-radius: 50%;
+}
+/***************************************************************  section7 *************************************/
+.section7 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.section7 .der{
+    background-color: white;
+    border-radius: 10px;
+}
+.section7 .der .rond{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 216, 216);
+    border-radius: 50px;
+}
+.section7 .der .rond:hover{
+    background-color: #079383;
+}
+.section7 .der .long{
+    background-color: rgb(212, 216, 216);
+    width: 180px;
+    height: 3px;
+}
+.section7 .der .long:hover{
+    background-color: #079383;
+}
+.der .gre{
+    color: #008374;
+}
+.section7{
+    background-color: rgb(241, 245, 245);
+}
+/***************************************************************  section8 *************************************/
+.section8 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.vous .so{
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+}
+.vous .nous  h4{
+    color: rgb(170, 170, 167);
+}
+.vous .nous  h3{
+    font-size: 20px;
+}
+.nous .etoile{
+    color: rgb(255, 196, 0);
+}
+.je{
+    background-color: rgb(247, 244, 244);
+    border-radius: 20px;
+}
+/***************************************************************  section9 *************************************/
+.section9 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.section9{
+    background-color: rgb(246, 249, 251);
+}
+.section9 .card{
+    border: 1px solid white;
+}
+/***************************************************************  section10 *************************************/
+.section10 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.card-body .somme .cercle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(193, 192, 192);
+}
+.card-body .somme .cercle .bi{
+    color: rgb(193, 192, 192);
+}
+/***************************************************************  section13 *************************************/
+.section13 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+.voir .garder{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+/***************************************************************  section14 *************************************/
+.section14 .entre .tirer{
+    background-color: #079383;
+    width: 60px;
+    height: 3px;
+}
+
+
+
+
+
+
+/***************************************************************  footer *************************************/
+.footer{
+    background-color: #079383;
+    color: white;
+}
+.footer .somme .cercle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(193, 192, 192);
+}
+.footer .somme .cercle .bi{
+    color: rgb(193, 192, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    /* section2 */
+    .section2 .vert{
+        top: 0;
+    }
+    .section2{
+        background-color: #00796b;
+    }
+    .section2 .vert{
+        margin-bottom: 20px;
+    }
+}
